@@ -56,7 +56,7 @@
     }
     ?>
     <p>I'm aware that it's possible to abuse this project, but hacking/abusing is not cool, so please just <a href="https://github.com/Aaron-Junker/whatdoesthisnumbermeantoyou">help improving this project.</a></p>
-    <p>Please keep it save for work</p>
+    <p>Please keep your submissions save for work</p>
     <?php
     // Database connection
     $db = new mysqli(DB_HOST, DB_USER, DB_PASS, DB_NAME);
