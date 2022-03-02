@@ -32,8 +32,9 @@
 
             $result = $db->query("INSERT INTO number (Number, Text) VALUES ('".$db->real_escape_string($number)."', '".$db->real_escape_string(htmlspecialchars($story))."')");
             if($result){
-                echo "<p>Your story has been saved.</p>";
                 setcookie('submitted', 'true', time()+86400, '/');
+                echo "<p>Your story has been saved.</p>";
+                
                 echo "<a href='index.php'>Go back</a>";
             }else{
                 echo "<p>Something went wrong.</p>";
