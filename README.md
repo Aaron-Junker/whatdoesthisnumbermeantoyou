@@ -4,4 +4,4 @@ Website hosted with Microsoft Azure at whatdoesthisnumbermeantoyou.azurewebsites
 
 This is part of the [Microsoft Azure Trial Hackathon](https://dev.to/t/azuretrialhack) hosted by the Dev Community.
 
-Test
+The deployment is hosted from a private mirror repo to keep database passwords save.
